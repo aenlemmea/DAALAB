@@ -9,7 +9,6 @@ comparator is O(1)
 qsort in main is O(n log n)
 fknapsack does a O(n) scan to calculate answer.
 Hence in total: O(1) + O(1) + O(n log n) + O(n) = O(n log n)
-
 */
 
 typedef struct {

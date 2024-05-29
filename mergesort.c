@@ -11,7 +11,7 @@
 void merge(int * A, int * L, int leftCount, int * R, int rightCount) {
 	int i, j, k;
 	
-	// i - to mark the index of left aubarray (L)
+	// i - to mark the index of left subarray (L)
 	// j - to mark the index of right sub-raay (R)
 	// k - to mark the index of merged subarray (A)
 	i = 0;
