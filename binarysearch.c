@@ -14,6 +14,9 @@ int binarysearchrec(int *a, int left, int right, int key) {
 	}
 }
 
+// Worst case: Key is either in left or right so O(log n) since no. of comparisons.
+// Best Case: O(1)
+// Average Case: https://www.knowledgehut.com/blog/programming/time-complexity-of-binary-search
 int binarysearch(int *a, int left, int right, int key) {
 	int mid = 0;
 	while (left <= right) {
